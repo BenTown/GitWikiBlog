@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.myorg.myapp</groupId>
+    <artifactId>app-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <!-- common -->
+        <module>GitWikiBlog-common</module>
+        <!-- 封装Git，底层脚本，调用系统操作等 -->
+        <module>GitWikiBlog-base</module>
+        <!-- dao -->
+        <module>GitWikiBlog-dao</module>
+        <!-- service -->
+        <module>GitWikiBlog-service</module>
+        <!-- 前台后端 -->
+        <module>GitWikiBlog-web</module>
+        <!-- 前台管理后端 -->
+        <module>GitWikiBlog-console</module>
+        <!-- 后台管理后端 -->
+        <module>GitWikiBlog-admin</module>
+    </modules>
+</project>
